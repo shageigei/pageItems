@@ -16,6 +16,7 @@
 		3C9581F920A41D8800528540 /* GLMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9581F820A41D8800528540 /* GLMaskView.m */; };
 		3C9581FC20A425CF00528540 /* GLMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9581FB20A425CF00528540 /* GLMenuItem.m */; };
 		3C9581FF20A42ABB00528540 /* GLMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9581FE20A42ABB00528540 /* GLMenuView.m */; };
+		3C9FA81120F5B02500ED45BF /* PageSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FA81020F5B02500ED45BF /* PageSelect.m */; };
 		3CA4DABE20F34B9B0059CCCB /* TopLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA4DABD20F34B9B0059CCCB /* TopLineViewController.m */; };
 		3CA4DAC120F34BA60059CCCB /* HotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA4DAC020F34BA60059CCCB /* HotViewController.m */; };
 		3CA4DAC420F34BB90059CCCB /* SocietyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA4DAC320F34BB90059CCCB /* SocietyViewController.m */; };
@@ -42,6 +43,8 @@
 		3C9581FB20A425CF00528540 /* GLMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLMenuItem.m; sourceTree = "<group>"; };
 		3C9581FD20A42ABB00528540 /* GLMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLMenuView.h; sourceTree = "<group>"; };
 		3C9581FE20A42ABB00528540 /* GLMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLMenuView.m; sourceTree = "<group>"; };
+		3C9FA80F20F5B02500ED45BF /* PageSelect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageSelect.h; sourceTree = "<group>"; };
+		3C9FA81020F5B02500ED45BF /* PageSelect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageSelect.m; sourceTree = "<group>"; };
 		3CA4DABC20F34B9B0059CCCB /* TopLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopLineViewController.h; sourceTree = "<group>"; };
 		3CA4DABD20F34B9B0059CCCB /* TopLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopLineViewController.m; sourceTree = "<group>"; };
 		3CA4DABF20F34BA60059CCCB /* HotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotViewController.h; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 		3CA4DABA20F346FE0059CCCB /* PageSelect */ = {
 			isa = PBXGroup;
 			children = (
+				3C9FA80F20F5B02500ED45BF /* PageSelect.h */,
+				3C9FA81020F5B02500ED45BF /* PageSelect.m */,
 			);
 			path = PageSelect;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				3CA4DACD20F34BE10059CCCB /* ScienceViewController.m in Sources */,
 				3CA4DAC420F34BB90059CCCB /* SocietyViewController.m in Sources */,
 				3CA4DABE20F34B9B0059CCCB /* TopLineViewController.m in Sources */,
+				3C9FA81120F5B02500ED45BF /* PageSelect.m in Sources */,
 				3C9581F020A41CC200528540 /* main.m in Sources */,
 				3C9581E220A41CC200528540 /* AppDelegate.m in Sources */,
 				3CC9AE5E20A5369200306F14 /* GLPageViewController.m in Sources */,

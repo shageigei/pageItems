@@ -10,4 +10,9 @@
 
 @interface PageSelect : UIView
 
+@property (nonatomic, strong) NSMutableArray *items;        //顶部items集合
+@property (nonatomic, strong) NSMutableArray *controllers;  //控制器集合
+
+- (void)setUpChildViewController:(UIViewController *)controller;
+
 @end
